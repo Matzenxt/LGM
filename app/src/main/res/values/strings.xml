@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LGM_V1_Dummy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="main_administartion">Administration</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_verkaeuferliste">Verkäuferliste</string>
+
+
+    <string name="verkaeufer_liste_neu">Neuer Verkäufer</string>
+
+
+    <string name="produkte_liste_neu">Neues Produkt</string>
+    <string name="produkte_liste_suchen">Suchen</string>
+
+    <string name="title_activity_verkaeufer_neu">Neuer Verkäufer</string>
+    <string name="title_activity_auftraege__liste">Aufträge</string>
+
+    <string name="auftraege_liste_neu">Neuer Auftrag</string>
+    <string name="auftraege_liste_suchen">Suchen</string>
+    <string name="title_activity_produkt_test">ProduktTest</string>
+    <string name="title_activity_produkt_neu">Neues Produkt anlegen</string>
+    <string name="title_activity_verkaeufer_edit">verkaeufer_edit</string>
+    <string name="title_activity_sortiment_liste">Sortimente</string>
+    <string name="title_activity_bestell_liste">Aufrtäge</string>
+    <string name="title_activity_auftrag__neu">Neuer Auftrag</string>
+    <string name="title_activity_bestellung__neu">Neuer Auftrag</string>
+    <string name="title_activity_bestellung__neu__add__produkt">Produkt auswählen</string>
+    <string name="title_activity_sortiment_bearbeiten">Bearbeiten</string>
+    <string name="title_activity_sortiment_neu">Neues Sortiment</string>
+    <string name="title_activity_produkt_addt_to">Produkt hinzufügen</string>
+    <string name="title_activity_bestellung__bearbeiten">Bearbeiten</string>
+    <string name="title_activity_produkt_add_to_bestellung">Hinzufügen</string>
+    <string name="title_activity_administration">Administration</string>
+    <string name="title_activity_produkt_bearbeiten">Produkt Bearbeiten</string>
+    <string name="title_activity_bestellung_produkte_bearbeiten">Bearbeiten</string>
+    <string name="title_activity_sortiment_produkt_bearbeiten">SortimentProduktBearbeiten</string>
+    <string name="title_activity_produkt_suche">Suche Produkt</string>
+</resources>

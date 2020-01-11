@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_bestellung_add"
+        android:orderInCategory="1"
+        android:title="Produkt Hinzufügen"
+        android:icon="@drawable/add"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/option_bestellung_scan"
+        android:orderInCategory="1"
+        android:title="Produkt Scannen"
+        android:icon="@drawable/ic_menu_camera"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/option_bestellung_save"
+        android:orderInCategory="1"
+        android:title="Speichern"
+        android:icon="@drawable/save"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/option_bestellung_export"
+        android:orderInCategory="1"
+        android:title="Exportieren"
+        android:icon="@drawable/produkt"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/option_bestellung_loeschen"
+        android:orderInCategory="1"
+        android:title="Löschen"
+        android:icon="@drawable/trash"
+        app:showAsAction="never"/>
+</menu>

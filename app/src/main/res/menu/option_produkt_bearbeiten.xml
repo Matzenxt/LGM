@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option_produkt_bearbeiten_save"
+        android:title="Speichern"
+        app:showAsAction="always"
+        tools:icon="@drawable/save"/>
+    <item
+        android:id="@+id/option_produkt_bearbeiten_delete"
+        android:title="Löschen"
+        app:showAsAction="never"
+        tools:icon="@drawable/trash"/>
+</menu>
