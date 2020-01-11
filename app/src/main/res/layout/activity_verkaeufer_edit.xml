@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.matthias.lgm_v1_dummy.verkaeufer_edit"
+    tools:context="code.lagerhlatung.lodner.matthias.lgm.verkaeufer_edit"
     android:orientation="vertical">
 
     <android.support.design.widget.AppBarLayout
@@ -222,7 +222,6 @@
 
 
         <TextView
-            android:id="@+id/tv_HausNr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"

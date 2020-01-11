@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.matthias.lgm_v1_dummy.Bestellung_Neu_Add_Produkt">
+    tools:context="code.lagerhlatung.lodner.matthias.lgm.Bestellung_Neu_Add_Produkt">
 
 
     <android.support.v7.widget.Toolbar
@@ -23,50 +23,29 @@
         android:id="@+id/SV"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/et_bestellung_add_scan"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toStartOf="@+id/np_bestellung_add_scan"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_bestellung_add_scan"/>
 
     <TextView
         android:id="@+id/tv_bestellung_add_scan"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:text="Ergebnis"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/et_bestellung_add_scan"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_bestellung_add_scan"
-        app:layout_constraintBottom_toBottomOf="@+id/et_bestellung_add_scan"/>
-
-    <EditText
-        android:id="@+id/et_bestellung_add_scan"
-        android:layout_width="48dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="8dp"
-        android:ems="10"
-        android:inputType="number"
-        android:singleLine="true"
-        android:text="0"
-        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/lv_suche"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_bestellung_add_scan"/>
+        app:layout_constraintEnd_toStartOf="@+id/np_bestellung_add_scan"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="8dp"/>
 
     <ListView
         android:layout_width="368dp"
@@ -80,6 +59,18 @@
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/lv_suche"/>
+
+    <NumberPicker
+        android:id="@+id/np_bestellung_add_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/lv_suche"
+        android:layout_marginEnd="8dp"/>
 
 
 </android.support.constraint.ConstraintLayout>

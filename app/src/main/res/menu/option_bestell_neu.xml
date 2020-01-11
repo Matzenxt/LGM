@@ -25,7 +25,7 @@
         android:id="@+id/option_bestellung_export"
         android:orderInCategory="1"
         android:title="Exportieren"
-        android:icon="@drawable/produkt"
+        android:icon="@drawable/export"
         app:showAsAction="always"/>
     <item
         android:id="@+id/option_bestellung_loeschen"

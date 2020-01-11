@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.matthias.lgm_v1_dummy.ProduktListe"
+    tools:context="code.lagerhlatung.lodner.matthias.lgm.ProduktListe"
     android:orientation="vertical">
 
     <android.support.design.widget.AppBarLayout
